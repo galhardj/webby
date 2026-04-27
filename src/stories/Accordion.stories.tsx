@@ -69,6 +69,11 @@ export const SingleItem: Story = {
       },
     ],
   },
+  argTypes: {
+    title: {
+      control: false,
+    },
+  },
 };
 
 export const ManyItems: Story = {
